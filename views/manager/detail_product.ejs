@@ -21,78 +21,13 @@
 	<div class="d_logo t_logo">
 			<img src="/images/img/logo.png"></img>
 			</div>
-	<div class="d_navi t_navi" >
+	<div id="nav" class="d_navi t_navi" >
 		
-		<ul class="nav flex-column">
-			<li class="nav-item">
-				<img class="icon" src="/images/img/nav_bill.png"></img>
-				<p class="nav-link active" href="#">Đơn hàng</p>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link active" style="float:left;" href="bill.html">• Đơn hàng mới</a>
-				<div class="reddot">1</div>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link active" style="float:left;" href="#">• Đơn hàng đang xử lý</a>
-				<div class="reddot">8</div>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link active" href="#">• Đơn hàng đã hủy</a>
-			</li>
-			
-			<div style="" class="divider"></div>
-			<!--------------------------------------------->
-			<li class="nav-item">
-				<img class="icon" src="/images/img/nav_product.png"></img>
-				<p class="nav-link active">Hàng hóa</p>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link active" href="store.html">• Quản lý kho hàng</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link active" href="#">• Quản lý danh mục</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link active" href="product.html">• Quản lý hàng hóa</a>
-			</li>
-			
-			
-			<div style="" class="divider"></div>
-			<!--------------------------------------------->
-			<li class="nav-item">
-				<img class="icon" src="/images/img/nav_stat.png"></img>
-				<p class="nav-link" href="#">Thống kê</p>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link active" href="report.html">• Báo cáo</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link disabled" href="#">Disabled</a>
-			</li>
-			</ul>
 	</div>
 	<!--<div valign="bottom" class="footer">powered by TEAM10</div>	-->
 	<div style="height:100vh;width:500px;float:left;">
-		<div class="d_header t_header">
+		<div id="hd" class="d_header t_header">
 			
-			<!-- Search form -->
-			<input style="top:15%;position:relative;height:70%;float:left;width:40%;margin-left:2%;" class="form-control" type="text" placeholder="Search" aria-label="Search"></input>
-			
-			<!-- button-->
-			
-			<button style="float:left;height:70%;width:10%;top:15%;position:relative;font-size:1vw;line-height:1vw;" class="btn btn-search" type="button"> Search</button>
-			
-			<div id="id">
-				<div style="font-size:15px;height:20px;top:0%;font-weight:bold;position:relative;top:0%;">Hoàng Đức</div>
-				<div style="font-size:12px;height:10px;font-weight:normal;">Nhân viên</div>
-			</div>
-	
-			<img class="t_avt d_avt" onclick="option()" style="" src="/images/img/avt.png"></img>
-			<div id="opt" style="visibility:hidden;width:15%;background-color:#DDDDDD;float:right;clear:both;top:100%;right:0%;position:absolute;">
-				<div>tài khoản</div>
-				<div style="width:100%;border-top-style:solid;border-width:1px;"></div>
-				<div>đăng xuất</div>
-			</div>
 		</div>
 		<div class="d_content t_content" style="line-height:40px;">
 			<img src="/images/img/edit.png" style="width:20px;height:20px;opacity:50%;"></img>
@@ -130,6 +65,7 @@
 			</div>
 	</div>
 </div>
+<script src="/script/navigate.js"></script>
 <script>
 	
 	for (var i=0;i<5;i++){
